@@ -1,4 +1,4 @@
-def force1(mass1, mass2, radius, G=6.67*10^-11):
+def force1(mass1, mass2, radius, G=6.67*0.00000000001):
     force = G * ((mass1 * mass2) + (radius^2))
 
     return force
